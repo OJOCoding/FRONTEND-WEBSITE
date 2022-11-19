@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/hiring.css">
+    <title>Vinnie's Trattoria</title>
+
+
+
+</head>
+
+<body>
+    <header>
+        <a href="home.html" id="header_tittle">Vinnie's trattoria</a>
+        <img class="logo" src="images\logo.png" alt="">
+        <nav class="navigation">
+            <a href="home.html">HOME</a>
+            <div class="dropdown">
+            <a id="drop" href="about_us.html">ABOUT US</a> 
+                <div class="dropdown-content">
+                  <a href="hiring.html">JOIN US</a>
+                </div>
+              </div> 
+              <div class="dropdown">
+                <a id="drop" href="menu.html">MENU</a> 
+                    <div class="dropdown-content">
+                      <a href="delivery.html">DELIVERY</a>
+                    </div>
+                  </div> 
+            <a href="reviews.html">REVIEWS</a>
+            <a href="blog.html">BLOG</a>
+            <a href="gallery.html">GALLERY</a>
+            <a href="contact.html">CONTACT</a>
+        </nav>
+    </header>
+    <main>
+        <div class="form">
+            <h1>WANT TO BE PART OF THE TEAM?</h1>
+            <h2>APPLY NOW</h2>
+            <div class="top">
+                <textarea id="name" placeholder="NAME"></textarea>
+                <textarea id="lname" placeholder="LAST NAME"></textarea>
+                <textarea id="age" placeholder="AGE"></textarea>
+            </div>
+            <div class="bottom">
+                <textarea id="email" placeholder="EMAIL"></textarea>
+                <input type="file" id="upload" hidden />
+                <label for="upload">upload your CV here &ensp;<i class='fas fa-file-upload'></i></label>
+                <input id="submit" type="submit" value="Submit" onclick="alert('Your application will be reviewed soon!')">
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <p>© 2022 CS 206: FALL PROJECT SUBMISSION BY <a href="credits.html">ONI LUCA</a></p>
+    </footer>
+</body>
+
+</html>
