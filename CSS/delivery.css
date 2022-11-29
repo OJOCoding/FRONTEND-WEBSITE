@@ -127,7 +127,7 @@ footer {
 }
 
 body {
-    background-image: url("/images/delivery.webp");
+    background-image: url("../images/delivery.webp");
     background-repeat: no-repeat;
     background-size: 100vw 73vw;
 }
