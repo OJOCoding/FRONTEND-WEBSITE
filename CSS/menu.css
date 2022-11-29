@@ -182,7 +182,7 @@ footer {
     height: 30vw;
     width: 100vw;
     background-repeat: no-repeat;
-    background-image: url("/images/menu-banner.jpg");
+    background-image: url("../images/menu-banner.jpg");
     background-size: cover;
 }
 
