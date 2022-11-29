@@ -125,7 +125,7 @@ footer {
 }
 
 .top {
-    background-image: url("/images/gallery_banner.jpg");
+    background-image: url("../images/gallery_banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-image: cover;
@@ -213,47 +213,47 @@ footer {
 
 #gallery .img1 {
     grid-area: img1;
-    background-image: url("/images/gallery_thumbnails/img1.png");
+    background-image: url("../images/gallery_thumbnails/img1.png");
 }
 
 #gallery .img2 {
     grid-area: img2;
-    background-image: url("/images/gallery_thumbnails/img2.png");
+    background-image: url("../images/gallery_thumbnails/img2.png");
 }
 
 #gallery .img3 {
     grid-area: img3;
-    background-image: url("/images/gallery_thumbnails/img3.png");
+    background-image: url("../images/gallery_thumbnails/img3.png");
 }
 
 #gallery .img4 {
     grid-area: img4;
-    background-image: url("/images/gallery_thumbnails/img4.png");
+    background-image: url("../images/gallery_thumbnails/img4.png");
 }
 
 #gallery .img5 {
     grid-area: img5;
-    background-image: url("/images/gallery_thumbnails/img5.png");
+    background-image: url("../images/gallery_thumbnails/img5.png");
 }
 
 #gallery .img6 {
     grid-area: img6;
-    background-image: url("/images/gallery_thumbnails/img6.png");
+    background-image: url("../images/gallery_thumbnails/img6.png");
 }
 
 #gallery .img7 {
     grid-area: img7;
-    background-image: url("/images/gallery_thumbnails/img7.png");
+    background-image: url("../images/gallery_thumbnails/img7.png");
 }
 
 #gallery .img8 {
     grid-area: img8;
-    background-image: url("/images/gallery_thumbnails/img8.png");
+    background-image: url("../images/gallery_thumbnails/img8.png");
 }
 
 #gallery .img9 {
     grid-area: img9;
-    background-image: url("/images/gallery_thumbnails/img9.png");
+    background-image: url("../images/gallery_thumbnails/img9.png");
 }
 
 .gallery-img div {
